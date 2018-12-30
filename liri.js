@@ -35,13 +35,27 @@ if(input === "concert-this"){
 }
 
 if(input === "song-this"){
+    if (!info) {
+        info = "the sign ace of base";
+    }
     spotify.search({ type: 'track', query: info }, function(err, response) {
         if ( err ) {
             console.log('Error occurred: ' + err);
             return;
         } else{
-            console.log(response.tracks.items[0].album.artists[0].name);
+            //Code to display top 5 matches instead of just the first one.
+            // for (var i=0; i < 5; i++) {
+            //     console.log('Artist: ' + response.tracks.items[i].album.artists[0].name + '\nSong Name: ' + response.tracks.items[i].name + '\nLink: ' + 
+            //     response.tracks.items[i].album.artists[0].external_urls.spotify);
+            //     console.log('/n--------------------------------------------/n');
+            // }
+            var data = response.tracks.items[0];
+            var trackInfo = 'Artist: ' + data.album.artists[0].name + '\nSong Name: ' + data.name + '\nLink: ' + 
+            data.album.artists[0].external_urls.spotify + '\nAlbum: ' + data.album.name;
+            console.log(trackInfo);
+            console.log('--------------------------------------------\n');
+
         }
     });
-
+    
 }
