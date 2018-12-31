@@ -20,9 +20,16 @@
 * This app takes in four commands:
   * The following command retreives concert information for an artist the user inputs:
    * node liri.js concert-this <artist name here>
-   * https://github.com/zavanesova/liri-node-app/blob/master/screenshots/concert.png?raw=true
-   * ![ScreenShot](/screenshots/concert.png)
-   * ![ScreenShot](screenshots/concert.png)
+   ![ScreenShot](/screenshots/concert.png)
+  * The following command retrieves movie information for any movie the user inputs, if a movie is not entered 
+    it will show the information for the movie Mr. Nobody: 
+   * node liri.js movie-this <movie name here>
+   ![ScreenShot](/screenshots/movie.png)
+   ![ScreenShot](/screenshots/moviealt.png)
+ 
+ 
+   
+   
       
   
 
