@@ -8,17 +8,18 @@
 
 ## Technologies Used
 * This app was built with:
- * Javascript
- * Node
- * Spotify API
- * Bands In Town API 
- * OMDB API
- * Axios
- * Moment.js
+  * Javascript
+  * Node
+  * Spotify API
+  * Bands In Town API 
+  * OMDB API
+  * Axios
+  * Moment.js
  
 ## How It Works
 * This app takes in four commands:
- * The following command retreives concert information for an artist the user inputs:
-  * node liri.js concert-this <artist name here>
+  * The following command retreives concert information for an artist the user inputs:
+   * node liri.js concert-this <artist name here>
+   * screenshots/concert.png
   
 
