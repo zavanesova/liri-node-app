@@ -26,7 +26,14 @@
    * node liri.js movie-this <movie name here>
    ![ScreenShot](/screenshots/movie.png)
    ![ScreenShot](/screenshots/moviealt.png)
- 
+  * The following command retrieves song information for any song the user inputs, if a song is not entered it 
+    will show the information for 'The Sign' by Ace of Base:
+   * node liri.js spotify-this-song <song name here>
+   ![ScreenShot](/screenshots/song.png)
+   ![ScreenShot](/screenshots/songalt.png)
+  * The following command takes in information from a text file and runs the command written in the text file: 
+   * node liri.js do-what-it-says 
+   ![ScreenShot](/screenshots/do.png)
  
    
    
