@@ -73,6 +73,7 @@ function runSong() {
     song();
     
 }}
+
 if(input === "do-what-it-says"){
     fs.readFile('random.txt', 'utf8', function(error, data) {
         if(error) {
