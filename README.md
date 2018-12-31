@@ -20,6 +20,6 @@
 * This app takes in four commands:
   * The following command retreives concert information for an artist the user inputs:
    * node liri.js concert-this <artist name here>
-   * screenshots/concert.png
+   ![Screenshot](concert.png)
   
 
