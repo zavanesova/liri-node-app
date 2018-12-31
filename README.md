@@ -21,6 +21,8 @@
   * The following command retreives concert information for an artist the user inputs:
    * node liri.js concert-this <artist name here>
    * https://github.com/zavanesova/liri-node-app/blob/master/screenshots/concert.png?raw=true
+   * ![ScreenShot](/screenshots/concert.png)
+   * ![ScreenShot](screenshots/concert.png)
       
   
 
